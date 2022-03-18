@@ -55,3 +55,34 @@ length: 7
 */
 
 /*********** FIND **********/
+
+const encuentraArticulo = articulos.find(function(articulo) {
+  return articulo.nombre === "laptop";
+});
+
+console.log(encuentraArticulo); // {nombre: 'laptop', costo: 2000}
+
+/************ FOR EACH ***********/
+// NO ME CREA UN NUEVO ARRAY
+articulos.forEach(function(articulo) {
+  console.log(articulo.nombre);
+});
+/*
+bicicleta
+television
+libro
+celular
+laptop
+teclado
+audifonos
+*/
+
+
+/*********** SOME ************/
+
+// REGRESA UNA VALIDACIÓNN DE VERDADERO O FALSO, PARA LOS ARTICULOS QUE CUMPLEN CON DICHA VADACION (SI TENGO AL MENOS UNO YA ME DA TRUE)
+const articulosBaratos = articulos.some(function(articulo) {
+  return articulo.costo <= 700;
+});
+
+console.log(articulosBaratos);  // true
