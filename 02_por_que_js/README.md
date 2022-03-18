@@ -2,7 +2,7 @@
 
 ---
 
-## :star: ¿ Por qué JS?
+## :star: 2 - ¿ Por qué JS?
 
 JavaScript tiene una **comunidad enorme** de desarrolladores que te pueden ir ayudando a generar diferentes cosas.
 
