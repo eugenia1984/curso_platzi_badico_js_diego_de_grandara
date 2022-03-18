@@ -37,6 +37,16 @@ for (let elemento of listaDeElementos) {
 - **while** - recorre un bloque de código mientras se cumple una condición específica
 
 
+Usando el mismo array de estudiantes de antes y la funcion saludarEstudiantes()
+
+```JavaScript
+while (estudiantes.length > 0) {
+  // con shift en cada iteracion voy a ir sacando un estudiante y voy a saludar a ese estudiante sacado
+  let estudiantesAchicados = estudiantes.shift();
+  saludarEstudiantes(estudiantesAchicados);
+}
+```
+
 - **do/while** - también recorre un bloque de código mientras se cumple una condición específica
 
 ---
