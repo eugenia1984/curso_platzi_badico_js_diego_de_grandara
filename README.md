@@ -10,7 +10,10 @@ Temas:
 
 4- [Variables en JavaScript](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/04_variables) -> [ejercicio de practica en JS con variables](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/04_variables/variables.js)
 
-5- [¿ Qué es una funcion declarativa y una expresion?](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/05_funciones)
+5- [¿ Qué es una funcion declarativa y una expresion?](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/05_funciones) -> [Mini practica de funciones con JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/05_funciones/funciones.js)
+
+
+6- [Scoope](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/06_scoope) -> [Ejemplo en codigo de Scoope](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/06_scoope/scope.js)
 
 ---
 
