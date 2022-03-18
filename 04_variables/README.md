@@ -61,3 +61,9 @@ pokemonType = ‘grass’
 ```
 
 - Su contexto de es bloque: Solo funciona dentro de un bloque {}, fuera de ello no.
+
+---
+
+[ejercicio de practica en JS con variables](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/04_variables/variables.js)
+
+---
