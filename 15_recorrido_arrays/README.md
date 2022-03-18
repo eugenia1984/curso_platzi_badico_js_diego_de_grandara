@@ -20,6 +20,9 @@ Devuelve los valores coincidentes en una matriz de la colección. Verificará to
 
 ---
 
+
+---
+
 [Ejercicios de JS con métodos de recorridos de Arrays](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/15_recorrido_arrays/recorrido_arrays-js)
 
 ---
