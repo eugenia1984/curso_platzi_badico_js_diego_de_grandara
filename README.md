@@ -29,9 +29,9 @@ Temas:
 
 13 - [Loops](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_loops) -> [Loops con ejercicios en JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_loops/loops.js)
 
-14 - [Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_objects) -> [Ejercicios en JS de Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_objects/objects.js)
+14 - [Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/14_objects) -> [Ejercicios en JS de Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/14_objects/objects.js)
 
-15 - Métodos de Arrays
+15 - [Métodos de recorridos de Arrays](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/15_recorrido_arrays) ->  [Ejercicios de JS con métodos de recorridos de Arrays](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/15_recorrido_arrays/recorrido_arrays-js)
 
 ---
 

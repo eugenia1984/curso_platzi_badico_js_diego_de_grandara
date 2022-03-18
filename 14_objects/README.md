@@ -113,4 +113,4 @@ for(auto of autos){
 
 ---
 
-[Ejercicios en JS de Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_objects/objects.js)
+[Ejercicios en JS de Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/14_objects/objects.js)
