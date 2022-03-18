@@ -36,23 +36,59 @@ if(edad === 18) {
 let edad2 = 5;
 (edad2 > 10)? console.log('Tienes más de 10 años') : console.log('Tienes menos de 10 años');   // Tienen menos de 10 años
 
+
+/****** SWITCH ******/
+// Dependiendo la edad del/de la niño/a digo a que sala va en un jardin de infantes
+// de 0 a 2 (2 sin cumplir) -> sala roja
+// de 2 a 3 (3 sin cumplir) -> sala naranja
+// de 3 a 4 (4 sin cumplir) -> sala amarilla
+// de 4 a 5 (5 incluidos) -> sala azul
+let edadDelAlumno = 4;
+
+switch (edadDelAlumno) {
+  case 0:
+  case 1:  
+    console.log('Va a sala roja');
+    break;
+  case 2:
+    console.log('Va a sala naranja');
+    break;
+  case 3:
+    console.log('Va a sala amarilla');
+    break;
+  case 4:
+  case 5:
+    console.log('Va a sala azul');
+    break;
+  default:
+    console.log('Por la edad ya no viene al jardin');
+    break;
+}
 /********* RETO DE PIEDRA, PAPEL, TIJERA **********/
-// En este curso todavia no se vio, pero luego se puede hacer más interactivo pidiendole al usuario que ingrese piedra, papel o tijera y ahi se compara con la opcion de la pc
-const jugador = 'papel';
-const pc = 'papel';
-let resultado;
+// En este curso todavia no se vio, pero luego se puede hacer más interactivo pidiendole al usuario que ingrese piedra, papel o tijera y ahi se compara con la opcion de la pc.
 
-function ganador (){
+// Asi que utilizo el prompt, lo que si no hago validaciones de lo que ingresa el usuario, confiamos en que ingrese bien las palabras :) .
 
-	if(jugador === pc){
-		return resultado = 'empate';
-	} else if( (jugador == 'piedra' && pc == 'papel') || (jugador == 'papel' && pc == 'tijera') || (jugador == 'tijera' && pc == 'piedra')){
-		return resultado = 'Gana PC';
-  } else if( (jugador == 'piedra' && pc == 'tijera') || (jugador == 'papel' && pc == 'piedra') || (jugador == 'tijera' && pc == 'papel')){
-		return resultado = 'Gana Jugador';
-  } else {
-		return resultado = 'Ingrese valores correctos';
-  }
+const pregunta = prompt("Ingresa tu opción: piedra, papel o tijera: "); 
+const user = pregunta.toLowerCase();
+const options = ["piedra", "papel", "tijera"];
+// para que sea random lo que elije la computadora utilizo el metodo .random() de Marth asi accedo a uno de los valores del arreglo de las opciones
+const machine = options[Math.floor(Math.random() * 3)];
+
+switch (true) { //con true los casos van a pasar 
+    case (user === machine):
+        alert('Es un empate');
+        break;
+    case (machine === 'piedra' && user === 'papel'):
+        alert('Ganaste')
+        break;
+    case (machine === 'papel'  && user === 'tijera'):
+        alert('Ganaste')
+        break;
+    case (machine === 'tijera' && user === 'piedra'):
+        alert('Ganaste')
+        break;
+    default:
+        alert('¡Perdiste!');       
 }
 
-console.log(ganador());

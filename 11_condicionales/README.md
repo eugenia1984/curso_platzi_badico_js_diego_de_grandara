@@ -54,40 +54,65 @@ Es como tener un if - else en una sola linea, su sintaxis:
 ```(condicionAEvaluar)? accionPorTrue : accionPorFalse; ```
 
 ---
+### switch
 
+Su sintaxis:
+
+```
+switch (true) {
+  case valor1:
+    // bloque de codigo a ejecutar si cumple con el valor1
+    break;
+  case valor2:
+  case valor3
+    // bloque de codigo a ejecutar si cumple con el valor2 o el valor3
+    break;
+  default:
+    // si no cumple con ninguno de los anteriores entra aca
+}
+```
+
+Con el **break** cuando encuentra el case que se cumple se *rompe* y sale del loop del switch, por lo que no sigue evaluando los casos que le siguen.
+
+También como esta en la sintaxis, puedo considerar más de un caso, por eso tengo valor2 y valor3 con el mismo bloque de codigo a ejecutar
+
+
+---
 
 ### Reto hacer un juego de piedra, papel o tijera
 
-En este curso todavia no se vio, pero luego se puede hacer más interactivo pidiendole al usuario que ingrese piedra, papel o tijera y ahi se compara con la opcion de la pc
+En este curso todavia no se vio, pero luego se puede hacer más interactivo pidiendole al usuario que ingrese piedra, papel o tijera y ahi se compara con la opcion de la pc.
+
+Asi que utilizo el prompt, lo que si no hago validaciones de lo que ingresa el usuario, confiamos en que ingrese bien las palabras :) .
 
 ```JavaScript
-const jugador = 'papel';
-const pc = 'papel';
-let resultado;
+const pregunta = prompt("Ingresa tu opción: piedra, papel o tijera: "); 
+const user = pregunta.toLowerCase();
+const options = ["piedra", "papel", "tijera"];
+// para que sea random lo que elije la computadora utilizo el metodo .random() de Marth asi accedo a uno de los valores del arreglo de las opciones
+const machine = options[Math.floor(Math.random() * 3)];
 
-function ganador (){
-
-	if(jugador === pc){
-		return resultado = 'empate';
-	} else if( (jugador == 'piedra' && pc == 'papel') || (jugador == 'papel' && pc == 'tijera') || (jugador == 'tijera' && pc == 'piedra')){
-		return resultado = 'Gana PC';
-  } else if( (jugador == 'piedra' && pc == 'tijera') || (jugador == 'papel' && pc == 'piedra') || (jugador == 'tijera' && pc == 'papel')){
-		return resultado = 'Gana Jugador';
-  } else {
-		return resultado = 'Ingrese valores correctos';
-  }
+//con true los casos van a pasar 
+switch (true) {
+    case (user === machine):
+        alert('Es un empate');
+        break;
+    case (machine === 'piedra' && user === 'papel'):
+        alert('Ganaste')
+        break;
+    case (machine === 'papel'  && user === 'tijera'):
+        alert('Ganaste')
+        break;
+    case (machine === 'tijera' && user === 'piedra'):
+        alert('Ganaste')
+        break;
+    default:
+        alert('¡Perdiste!');       
 }
-
-console.log(ganador());
 ```
 
 ---
 
-### switch
-
-
----
-
-
+:star: [Practica en JS de condicionales: if, if-else, if-else if - else, ternario, switch](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/11_condicionales/condicionales.js) 
 
 ---
