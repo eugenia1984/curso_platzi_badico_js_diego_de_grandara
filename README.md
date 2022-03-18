@@ -17,6 +17,7 @@ Temas:
 
 7- [Hoisting](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/07_hoisting) ->  [Hoisting ejemplificado con JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/07_hoisting/hoisting.js)
 
+8- [Coersion](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/08_coersion) -> [Coersion con ejemplo de JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/08_coersion/coersion.js)
 
 ---
 
