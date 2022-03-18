@@ -10,7 +10,7 @@ Temas:
 
 4- [Variables en JavaScript](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/04_variables) -> [ejercicio de practica en JS con variables](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/04_variables/variables.js)
 
-5- ¿ Qué es una funcion declarativa y una expresion?
+5- [¿ Qué es una funcion declarativa y una expresion?](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/05_funciones)
 
 ---
 
