@@ -19,6 +19,8 @@ Temas:
 
 8- [Coersion](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/08_coersion) -> [Coersion con ejemplo de JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/08_coersion/coersion.js)
 
+9- [Truthy y Falsy](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/09_truthy_falsy)  ->  [Truthy y Falsy con JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/09_truthy_falsy/truthy_falsy.js) 
+
 ---
 
 ## Stack teconológico 🛠️
