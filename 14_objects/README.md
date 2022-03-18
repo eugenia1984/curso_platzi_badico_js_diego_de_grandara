@@ -54,4 +54,63 @@ En este caso: ```this = miAuto```.
 
 ---
 
+## ¿ Cómo genero nuevos Objetos ?
+
+Con una función constructora.
+
+En la función constructora, los parametros de la misma son los atributos de la clase
+
+```JavaScript
+function nuevoAuto(marca, modelo, anio) {
+  this.marca = marca;
+  this.modelo = modelo;
+  this.annio = anio;
+}
+```
+
+Creo un nuevo objeto, como instancia de mi función constructora
+
+```JavaSCript
+const nuevoAuto1 = new nuevoAuto("Tesla", "Model 3", 2020);
+console.log(nuevoAuto1);  // nuevoAuto {marca: 'Tesla', modelo: 'Model 3', annio: 2020}
+```
+
+---
+
+## Desafio, generar 2 nuevos autos
+
+Ejemplo en codigo, con la funcion constructora:
+
+```JavaScript
+function auto(marca, modelo, anio) {
+  this.marca = marca;
+  this.modelo = modelo;
+  this.annio = anio;
+}
+```
+
+Mi array para guardar los autos
+```JavaScript
+const autos = [];
+```
+
+Con  un for voy a ir pidiendo los valores de los atributos para cada instancia de mi nuevo auto
+```JavaScript
+for(let i = 0 ; i < 3 ; i++){
+  var marca = prompt("Ingresa la marca del auto");
+  var modelo = prompt("Ingresa el modelo del auto");
+  var annio = prompt("Ingresa el año del auto");
+  autos.push(new auto (marca, modelo, annio));
+}
+```
+
+Con un for of los muestro
+```JavaScript
+for(auto of autos){
+  console.log(auto);
+}
+```
+
+---
+
 [Ejercicios en JS de Objects](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_objects/objects.js)
