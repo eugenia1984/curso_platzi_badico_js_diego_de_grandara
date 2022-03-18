@@ -25,9 +25,9 @@ Temas:
 
 11- [Condicionales: if, if-else, if-else if - else, ternario, switch](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/11_condicionales)  ->  [Practica en JS de condicionales: if, if-else, if-else if - else, ternario, switch](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/11_condicionales/condicionales.js) 
 
-12 - [Arrays]((https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/12_arrays) -> [Arrays con ejemplos en JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/12_arrays/arrays.js) 
+12 - [Arrays](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/12_arrays) -> [Arrays con ejemplos en JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/12_arrays/arrays.js) 
 
-13 - Loops
+13 - [Loops](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_loops) -> [Loops con ejercicios en JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/13_loops/loops.js)
 
 14 - Objects
 
