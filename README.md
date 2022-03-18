@@ -2,7 +2,7 @@
 
 Temas:
 
-1- ¿ Qué es JS?
+1- [¿ Qué es JS?](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/01_que_es_js)
 
 2- ¿Por qué JS?
 
