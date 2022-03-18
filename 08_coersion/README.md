@@ -2,7 +2,7 @@
 
 ---
 
-## :star: 08 - Xoersion
+## :star: 08 - Coersion
 
 **Coerción** es la forma en la que podemos cambiar un tipo de valor a otro, existen dos tipos de coerción:
 
