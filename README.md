@@ -21,6 +21,8 @@ Temas:
 
 9- [Truthy y Falsy](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/09_truthy_falsy)  ->  [Truthy y Falsy con JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/09_truthy_falsy/truthy_falsy.js) 
 
+10- [Operadores: Asignación, Comparación y Aritméticos](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/10_operadores) -> [ejemplo en codigo JS](https://github.com/eugenia1984/curso_platzi_basico_js_diego_de_granda/tree/main/10_operadores/operadores.js)
+
 ---
 
 ## Stack teconológico 🛠️
